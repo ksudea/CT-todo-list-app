@@ -10,8 +10,8 @@ To-Do List App Features:
 * Quitting the application.
 
 # How to run app on CLI
-
-I recommend using git bash/shell/Linux. 
+## Linux / Git Bash
+I recommend using git bash even if on Windows. 
 
 Run the following:
 
