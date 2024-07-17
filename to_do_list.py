@@ -62,6 +62,8 @@ def change_priority(title, priority_num):
                 title_found = True
     except (ValueError, TypeError):
         print("There seems to be an error with the title or priority you entered. \n Remember to enter an integer 0-2 as a priority.")
+    except(IndexError):
+       print("Invalid priority - Remember to enter an integer 0-2")
     else:
         if title_found:
             print(f"Priority updated! {title} priority is now {new_priority}")
